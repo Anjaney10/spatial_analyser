@@ -1,6 +1,6 @@
-# Spatial-SC Explorer 🧬
+# Spatial-Analyser 🧬
 
-**Spatial-SC Explorer** is a high-performance, interactive web application built for the rapid analysis and visualization of single-cell and spatial transcriptomics data.
+**Spatial-Analyser** is a high-performance, interactive web application built for the rapid analysis and visualization of single-cell and spatial transcriptomics data.
 
 By bridging the gap between the **scverse** (Scanpy/Squidpy) backend and the **Vitessce** high-fidelity visualization framework, this tool allows researchers to move seamlessly from raw `.h5ad` files to interactive "brushing and linking" discovery—all within a local, offline-capable Streamlit environment.
 
@@ -40,7 +40,6 @@ We recommend using **Miniforge** (which includes `mamba`) for faster and more re
 # Create a dedicated Python 3.11 environment
 mamba create -n spatial_sc python=3.11 -y
 mamba activate spatial_sc
-
 ```
 
 ### 3. Install Core Dependencies
@@ -65,9 +64,8 @@ pip install streamlit vitessce
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/spatial-sc-explorer.git
-cd spatial-sc-explorer
-
+git clone https://github.com/Anjaney10/spatial_analyser.git
+cd spatial_analyser
 ```
 
 
@@ -75,7 +73,7 @@ cd spatial-sc-explorer
 
 ```bash
     streamlit run app.py
-    ```
+```
 
 3.  **Analyze Your Data:**
     *   **Upload:** Drag and drop your `.h5ad` file into the sidebar.
